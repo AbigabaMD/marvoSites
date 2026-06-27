@@ -59,4 +59,4 @@ nova-react/
 
 ## Note
 
-The static assets (images, CSS, JS) are referenced from the `Nova-Bootstrap-1.0.0` directory. Make sure to keep that directory intact for the assets to work properly.
+The static assets (images, CSS, JS) are referenced from the `/` directory. Make sure to keep that directory intact for the assets to work properly.

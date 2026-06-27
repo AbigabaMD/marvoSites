@@ -13,15 +13,15 @@ const Pricing = () => {
       <div className="container">
         <div className="row mb-5">
           <div className="col-md-5 mx-auto text-center">
-            <span className="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Pricing</span>
-            <h2 className="mb-3" data-aos="fade-up" data-aos-delay="100">Plan for every budget</h2>
-            <p data-aos="fade-up" data-aos-delay="200">
+            <span className="subtitle text-uppercase mb-3">Pricing</span>
+            <h2 className="mb-3">Plan for every budget</h2>
+            <p>
               Experience the future of finance with our secure, efficient, and user-friendly financial services
             </p>
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="300">
+          <div className="col-md-4 mb-4 mb-md-0">
             <div className="p-5 rounded-4 price-table h-100">
               <h3>Personal</h3>
               <p>Choose a plan that fits your personal financial needs and start managing your finances more effectively.</p>
@@ -29,7 +29,7 @@ const Pricing = () => {
               <div><a className="btn" href="#">Get Started</a></div>
             </div>
           </div>
-          <div className="col-md-8" data-aos="fade-up" data-aos-delay="400">
+          <div className="col-md-8">
             <div className="p-5 rounded-4 price-table popular h-100">
               <div className="row">
                 <div className="col-md-6">

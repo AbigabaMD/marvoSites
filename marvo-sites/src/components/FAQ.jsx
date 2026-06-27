@@ -29,15 +29,15 @@ const FAQ = () => {
       <div className="container">
         <div className="row mb-4">
           <div className="col-md-6 col-lg-7 mx-auto text-center">
-            <span className="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">FAQ</span>
-            <h2 className="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Frequently Asked Questions</h2>
-            <p data-aos="fade-up" data-aos-delay="100">
+            <span className="subtitle text-uppercase mb-3">FAQ</span>
+            <h2 className="h2 fw-bold mb-3">Frequently Asked Questions</h2>
+            <p>
               Utilize our tools to develop your concepts and bring your vision to life. Once complete, effortlessly share your creations.
             </p>
           </div>
         </div>
         <div className="row">
-          <div className="col-md-8 mx-auto" data-aos="fade-up" data-aos-delay="200">
+          <div className="col-md-8 mx-auto">
             <div className="faq-content">
               <div className="accordion custom-accordion" id="accordionPanelsStayOpenExample">
                 {faqs.map((faq, index) => (

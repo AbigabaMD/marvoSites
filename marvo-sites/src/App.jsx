@@ -14,9 +14,20 @@ import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
+import '../assets/css/style.css'
 import './index.css'
 
 function App() {
+  useEffect(() => {
+    const bootstrapJS = document.createElement('script')
+    bootstrapJS.src = '/assets/vendors/bootstrap/bootstrap.bundle.min.js'
+    document.body.appendChild(bootstrapJS)
+    return () => {
+      const script = document.querySelector('script[src="/assets/vendors/bootstrap/bootstrap.bundle.min.js"]')
+      if (script) document.body.removeChild(script)
+    }
+  }, [])
+
   // Apply theme from localStorage
   useEffect(() => {
     const storedTheme = localStorage.getItem('theme') || 'light'

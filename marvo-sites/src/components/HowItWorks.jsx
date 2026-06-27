@@ -13,9 +13,9 @@ const HowItWorks = () => {
       <div className="container">
         <div className="row mb-5">
           <div className="col-md-6 text-center mx-auto">
-            <span className="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">How it works</span>
-            <h2 data-aos="fade-up" data-aos-delay="100">How It Works</h2>
-            <p data-aos="fade-up" data-aos-delay="200">
+            <span className="subtitle text-uppercase mb-3">How it works</span>
+            <h2>How It Works</h2>
+            <p>
               Our platform is designed to make managing your finances simple and efficient. Follow these easy steps to get started:
             </p>
           </div>
@@ -24,16 +24,14 @@ const HowItWorks = () => {
           {steps.map((step, index) => (
             <div 
               key={index} 
-              className={`col-md-6 col-lg-3 ${index === 1 ? 'reverse' : ''} ${index === 3 ? 'last' : ''}`} 
-              data-aos="fade-up" 
-              data-aos-delay={index * 600}
+              className={`col-md-6 col-lg-3 ${index === 1 ? 'reverse' : ''} ${index === 3 ? 'last' : ''}`}
             >
               <div className={`step-card text-center h-100 d-flex flex-column justify-content-start position-relative ${index === 1 ? 'reverse' : ''} ${index === 3 ? 'last' : ''}`}>
                 {index !== 3 && (
-                  <div data-aos="fade-right" data-aos-delay={500 + index * 600}>
+                  <div>
                     <img 
                       className={`arch-line ${index === 1 ? 'reverse' : ''}`} 
-                      src={`/Nova-Bootstrap-1.0.0/assets/images/${index === 1 ? 'arch-line-reverse' : 'arch-line'}.svg`} 
+                      src={`/assets/images/${index === 1 ? 'arch-line-reverse' : 'arch-line'}.svg`} 
                       alt="Step line" 
                     />
                   </div>

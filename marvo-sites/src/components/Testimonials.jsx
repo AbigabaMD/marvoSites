@@ -45,28 +45,23 @@ const Testimonials = () => {
       <div className="container">
         <div className="row mb-5">
           <div className="col-lg-5 mx-auto text-center">
-            <span className="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Testimonials</span>
-            <h2 className="mb-3" data-aos="fade-up" data-aos-delay="100">What Our Users Are Saying</h2>
-            <p data-aos="fade-up" data-aos-delay="200">
+            <span className="subtitle text-uppercase mb-3">Testimonials</span>
+            <h2 className="mb-3">What Our Users Are Saying</h2>
+            <p>
               Real Stories of Success and Satisfaction from Our Diverse Community
             </p>
           </div>
         </div>
         <div className="row g-4">
           {testimonials.map((testimonial, index) => (
-            <div 
-              key={index} 
-              className="col-md-6 col-lg-4" 
-              data-aos="fade-up" 
-              data-aos-delay={index * 100}
-            >
+              <div className="col-md-6 col-lg-4">
               <div className="testimonial rounded-4 p-4">
                 <blockquote className="mb-3">
                   &ldquo;{testimonial.quote}&rdquo;
                 </blockquote>
                 <div className="testimonial-author d-flex gap-3 align-items-center">
                   <div className="author-img">
-                    <img className="rounded-circle img-fluid" src={`/Nova-Bootstrap-1.0.0/assets/images/${testimonial.image}`} alt={testimonial.name} />
+                    <img className="rounded-circle img-fluid" src={`/assets/images/${testimonial.image}`} alt={testimonial.name} />
                   </div>
                   <div className="lh-base">
                     <strong className="d-block">{testimonial.name}</strong>

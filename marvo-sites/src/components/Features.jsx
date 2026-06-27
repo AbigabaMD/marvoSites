@@ -13,9 +13,9 @@ const Features = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="d-lg-flex p-5 rounded-4 content" data-aos="fade-in" data-aos-delay="0">
+            <div className="d-lg-flex p-5 rounded-4 content">
               <div className="row">
-                <div className="col-lg-5 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
+                <div className="col-lg-5 mb-5 mb-lg-0">
                   <div className="row">
                     <div className="col-lg-11">
                       <div className="h-100 flex-column justify-content-between d-flex">
@@ -39,7 +39,7 @@ const Features = () => {
                     <div className="col-lg-11">
                       <div className="row">
                         {featureItems.map((item, index) => (
-                          <div key={index} className="col-sm-6" data-aos="fade-up" data-aos-delay={index * 100}>
+                          <div key={index} className="col-sm-6">
                             <div className="icon text-center mb-4">
                               <i className={`${item.icon} fs-4`}></i>
                             </div>

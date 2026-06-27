@@ -39,19 +39,17 @@ const Services = () => {
       <div className="container">
         <div className="row mb-5">
           <div className="col-md-8 mx-auto text-center">
-            <span className="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Our Services</span>
-            <h2 className="mb-3" data-aos="fade-up" data-aos-delay="100">
+            <span className="subtitle text-uppercase mb-3">Our Services</span>
+            <h2 className="mb-3">
               Empowering Financial Innovation Through Cutting-Edge Services
             </h2>
           </div>
         </div>
         <div className="row g-4">
           {services.map((service, index) => (
-            <div 
+              <div 
               key={index} 
               className="col-md-6 col-lg-4" 
-              data-aos="fade-up" 
-              data-aos-delay={index * 100}
             >
               <div className="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
                 <div>

@@ -22,8 +22,8 @@ const Header = () => {
       <div className="container d-flex align-items-center justify-content-between">
         {/* Start Logo */}
         <Link className="navbar-brand w-auto" to="/">
-          <img className="logo dark img-fluid" src="/Nova-Bootstrap-1.0.0/assets/images/logo-dark.svg" alt="Nova Logo" />
-          <img className="logo light img-fluid" src="/Nova-Bootstrap-1.0.0/assets/images/logo-light.svg" alt="Nova Logo" />
+          <img className="logo dark img-fluid" src="/assets/images/logo-dark.svg" alt="Nova Logo" />
+          <img className="logo light img-fluid" src="/assets/images/logo-light.svg" alt="Nova Logo" />
         </Link>
         {/* End Logo */}
 
@@ -32,8 +32,8 @@ const Header = () => {
           <div className="offcanvas-header">
             <div className="offcanvas-header-logo">
               <Link className="logo-link" id="fbs__net-navbarsLabel" to="/">
-                <img className="logo dark img-fluid" src="/Nova-Bootstrap-1.0.0/assets/images/logo-dark.svg" alt="Nova Logo" />
-                <img className="logo light img-fluid" src="/Nova-Bootstrap-1.0.0/assets/images/logo-light.svg" alt="Nova Logo" />
+                <img className="logo dark img-fluid" src="/assets/images/logo-dark.svg" alt="Nova Logo" />
+                <img className="logo light img-fluid" src="/assets/images/logo-light.svg" alt="Nova Logo" />
               </Link>
             </div>
             <button className="btn-close btn-close-black" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>

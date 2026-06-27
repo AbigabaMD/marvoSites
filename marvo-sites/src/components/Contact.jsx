@@ -31,9 +31,9 @@ const Contact = () => {
       <div className="container">
         <div className="row mb-5">
           <div className="col-md-6 col-lg-7 mx-auto text-center">
-            <span className="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Contact</span>
-            <h2 className="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Contact Us</h2>
-            <p data-aos="fade-up" data-aos-delay="100">
+            <span className="subtitle text-uppercase mb-3">Contact</span>
+            <h2 className="h2 fw-bold mb-3">Contact Us</h2>
+            <p>
               Utilize our tools to develop your concepts and bring your vision to life. Once complete, effortlessly share your creations.
             </p>
           </div>
@@ -41,21 +41,21 @@ const Contact = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="d-flex gap-5 flex-column">
-              <div className="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="0">
+              <div className="d-flex align-items-start gap-3">
                 <div className="icon d-block"><i className="bi bi-telephone"></i></div>
                 <span>
                   <span className="d-block">Phone</span>
                   <strong>+(01 234 567 890)</strong>
                 </span>
               </div>
-              <div className="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="100">
+              <div className="d-flex align-items-start gap-3">
                 <div className="icon d-block"><i className="bi bi-send"></i></div>
                 <span>
                   <span className="d-block">Email</span>
                   <strong>info@mydomain.com</strong>
                 </span>
               </div>
-              <div className="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="200">
+              <div className="d-flex align-items-start gap-3">
                 <div className="icon d-block"><i className="bi bi-geo-alt"></i></div>
                 <span>
                   <span className="d-block">Address</span>
@@ -68,7 +68,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="form-wrapper" data-aos="fade-up" data-aos-delay="300">
+            <div className="form-wrapper">
               <form id="contactForm" onSubmit={handleSubmit}>
                 <div className="row gap-3 mb-3">
                   <div className="col-md-12">

@@ -1,6 +1,6 @@
 /* Import original template styles */
-@import '../Nova-Bootstrap-1.0.0/assets/css/style.css';
-@import '../Nova-Bootstrap-1.0.0/assets/vendors/aos/aos.css';
+@import '../assets/css/style.css';
+@import '../assets/vendors/aos/aos.css';
 
 /* Back to top button */
 #back-to-top {
